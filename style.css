@@ -1,0 +1,145 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 3% auto;
+      padding: 20px;
+      background-color: #333;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .input-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .addNew,
+    .emptyQuote{
+      font-size: 1.2rem;
+      font-family: 'Times New Roman', Times, serif;
+      color: #888;
+    }
+
+    @media (max-width: 480px) {
+      .input-container {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      #inputText {
+        margin-bottom: 5px;
+        
+      }
+    }
+
+    #inputText {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 5px;
+      background-color: #222;
+      color: #fff;
+      margin-right: 5px;
+    }
+
+    #addButton {
+      padding: 10px 20px;
+      background-color: green;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #addButton:hover {
+      background-color: #036a03;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #555;
+    }
+    /* h2 */
+    .mainH{ 
+      font-size: 2rem;
+      text-align: center;
+      margin: 20px 0 20px;
+      color: #FFA500;
+    }
+
+    h3 {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      margin: 0;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .edit-delete-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .edit-button,
+    .delete-button {
+      padding: 9px 10px;
+      background-color: #555;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 5px;
+      color: #fff;
+    }
+
+    .delete-button {
+      background-color: #ff5555;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 10px;
+      }
+
+      #inputText {
+        padding: 8px;
+      }
+
+      #addButton {
+        padding: 8px 15px;
+      }
+
+      li {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      h3 {
+        font-size: 16px;
+        left: 5%;
+      }
+
+      .edit-button,
+      .delete-button {
+        margin-top: 10px;
+      }
+    }
+
+
