@@ -13,6 +13,10 @@ A simple static website for managing tasks. Users can add, edit, and remove task
 
 Visit the MY-Task-List https://maddy150912.github.io/MY-Task-List/ to see the project in action.
 
+## Demo
+
+![TaskManage](https://github.com/Maddy150912/MY-Task-List/assets/84185600/73d8602b-3630-4e45-b66a-4546141c3a06)
+
 ## Usage
 
 1. Clone the repository:
